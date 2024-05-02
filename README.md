@@ -1,6 +1,7 @@
 ## Google AI Hackathon 2024 project - 'What to Wear' Agent
 
 [![Watch the demo](thumbnail.png)](https://vimeo.com/942150831 "Watch the demo!")
+
 __Click the image to watch the demo.__
 
 ## Problem
