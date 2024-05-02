@@ -1,4 +1,0 @@
-GOOGLE_API_KEY= 'for Gemini API'
-OPENAI_API_KEY= 'for Dall-e 3'
-ACCUWEATHER_API_KEY= 'for current and future weather'
-MAILGUN_API_KEY= 'to send an email'
