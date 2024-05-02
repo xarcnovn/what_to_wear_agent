@@ -1,4 +1,4 @@
-opencv-python==4.9.0.80
+opencv-python-headlessv
 requests==2.31.0
 streamlit==1.33.0
 google-generativeai==0.5.1
