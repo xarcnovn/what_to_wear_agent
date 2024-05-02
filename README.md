@@ -1,4 +1,4 @@
-# What_to_wear? Agent
+# What_to_wear Agent
 Semi-autonomous agent for recommending proper clothing based on data from weather forecasts and images from public cameras
 
 # Problem to solve
