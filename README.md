@@ -1,6 +1,7 @@
 ## Google AI Hackathon 2024 project - 'What to Wear' Agent
 
 [![Watch the demo](thumbnail.png)](https://vimeo.com/942150831 "Watch the demo!")
+__Click the image to watch the demo.__
 
 ## Problem
 **My girlfriend often doesn’t know how to dress properly for the weather**. She’s a supersmart and successful cybersecurity engineer, but sometimes, just struggles with appropriate clothing. When one of the major clothing misjudgements happened I asked:
