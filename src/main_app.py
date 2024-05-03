@@ -7,7 +7,7 @@ def main():
     st.markdown(":rainbow[Hi, pssst! Don't wanna get wet, sun burned or cold? Tell me where you are and I'll tell you what to wear to be nice and comfy!]")
     st.subheader('How does it work?')
     st.write("It's simple - I look through public webcams to see how people outside are dressed and combine it with the weather forecast. This allows me to return an accurate recommendation of clothing suitable for the current conditions. I also take into account any potential weather changes, so you don’t have to worry about being caught off guard by unexpected rain, wind or temperature.")
-    st.write("You can either get an instant recommendation here or subscribe to daily email recommendation:blush:")
+    st.write("You can either get an instant recommendation here or subscribe to a daily email recommendation:blush:")
 
     with st.form(key='location_form'):
         location = st.selectbox("Choose your location", ["Kraków, Poland", "Other locations available soon!"], index=0) #Only Kraków, Poland is working right now, but other locations will be available soon!
