@@ -20,7 +20,7 @@ class WeatherData:
 
     """
 
-    def __init__(self, location: str) -> None:
+    def __init__(self, location):
         self.weather_api_key = os.getenv('ACCUWEATHER_API_KEY')        
         self.location = location
         self.nearest_cameras = [                    
@@ -36,7 +36,7 @@ class WeatherData:
         """It will be finding the nearest cameras in the future"""
         pass
 
-    def take_screenshot(self, camera) -> str:
+    def take_screenshot(self, camera):
         cap = cv2.VideoCapture(camera)
         success, frame = cap.read()
         if not success:
@@ -48,7 +48,7 @@ class WeatherData:
         cap.release()
         return screenshot_path
 
-    def get_future_weather(self) -> None:
+    def get_future_weather(self):
         base_url = f"http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/{self.location}"
         params = {
             "apikey": self.weather_api_key,
@@ -59,7 +59,7 @@ class WeatherData:
         response = requests.get(base_url, params=params)
         return f'This is the 12-hours forecast:{response.json()}'
 
-    def get_current_weather(self) -> None:
+    def get_current_weather(self):
         base_url = f"http://dataservice.accuweather.com/currentconditions/v1/{self.location}"
         params = {
             "apikey": self.weather_api_key,
