@@ -63,7 +63,7 @@ It's my first solo hackathon project, so I learned a ton of interesting stuff! A
 - Making a mobile app. Although the current app is responsive on mobile devices, the main task at hand seems to be perfect for a simple mobile app with notifications, user data and history.
 - Consistent parsing and text formatting - it's harder than I expected tbh, but has to be done.
 # How to test the app?
-To test the app just visit https://whattowear-ztjt4zf3rpjmkazakyn3wn.streamlit.app/ or run the app locally (but it requires keys for Gemini API, Accuweather, OpenAI and Mailgun)
+To test the app just visit {streamlit app link passed for Devpost judges, can't give it here, becasue it will disable my API keys} or run the app locally (but it requires keys for Gemini API, Accuweather, OpenAI and Mailgun)
 1. git clone https://github.com/xarcnovn/what_to_wear
 2. pip install requirements.txt
 3. streamlit run main_app.py
