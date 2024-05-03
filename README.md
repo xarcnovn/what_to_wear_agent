@@ -53,7 +53,7 @@ What I want to add - the app provides protection-only/comfort-only recommendatio
 - Consistent parsing and text formatting - it's harder than I expected tbh, but has to be done.
 
 # How to test the app?
-To test the app just visit {streamlit link here} or run the app locally (but it requires keys for Gemini API, Accuweather, OpenAI and Mailgun)
+To test the app just visit https://whattowear-ztjt4zf3rpjmkazakyn3wn.streamlit.app/ or run the app locally (but it requires keys for Gemini API, Accuweather, OpenAI and Mailgun)
 1. git clone https://github.com/xarcnovn/what_to_wear
 2. pip install requirements.txt
 3. streamlit run main_app.py
