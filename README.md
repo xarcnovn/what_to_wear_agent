@@ -1,8 +1,7 @@
 ## Google AI Hackathon 2024 project - 'What to Wear' Agent
 
-[![Watch the demo](thumbnail.png)](https://vimeo.com/942150831 "Watch the demo!")
+[![Watch the demo](thumbnail.png)]")
 
-__Click the image to watch the demo.__
 
 ## Problem
 **My girlfriend often doesn’t know how to dress properly for the weather**. She’s a supersmart and successful cybersecurity engineer, but sometimes, just struggles with appropriate clothing. When one of the major clothing misjudgements happened I asked:
@@ -44,15 +43,6 @@ What I want to add - the app provides protection/comfort-only recommendations an
 - **It's reliable** - Me and my girlfriend have been testing it for the last couple of weeks and the outcomes were accurate in majority of the cases. The model recognizes pictures and forecasts details well and Self-Refine algorithm notaceably improves the final recommendation.
 - **Simple design** - It's like asking your friend or partner that already returned from the outside "How is outside, what to wear?".  It comes naturally to humans that they ask others about the weather conditions to make better clothing decisions.
 - **Agentic workflow with advanced prompting strategies** - I spent many hours experimenting with prompts and papers to tune the app to the task and I'm very satisfied with the results, so future users will be too (I hope it's not only the IKEA effect :D).
-
-## Learnings
-It's my first solo hackathon project, so I learned a ton of interesting stuff! Among others:
-- Huuuge improvement of my python skills, especially when it comes to data types and OOP
-- LangChain - I spent a relatively long time to learn how it works just to discover it's almost useless in my case. Actually, most of the LLMs frameworks seem to be overengineered and not that useful (at least yet) ([https://www.reddit.com/r/LangChain/comments/1c6zktz/llms_frameworks_langchain_llamaindex_griptape] :))
-- I implemented [Reflexion paper] (https://arxiv.org/pdf/2303.11366) just to find out that Self-Refine gives better results. Although, Reflexion is more complex and initially looks more logical. Also, I found that replication of results is a bit shady in almost all LLMs papers. 
-- Few-shots examples can mess the outcome totally. Before, I thought that the more examples, the better, but it's not always the case. What works in e.g acronym generations doesn't work in making clothing recommendations.
-- Agents are awesome, but also often unpredictible and not cost-effective.
-- LLM papers draw a lot of inspiration from human cognitive mechanisms, which is simply fascinating.
 
 ## What's next
 - An agentic workflow for finding publicly available webcams in an autonomous way. It's required to truly expand the app to other cities, otherwise I'd need to create a huge data base of hardcoded cameras, which isn't cool.
