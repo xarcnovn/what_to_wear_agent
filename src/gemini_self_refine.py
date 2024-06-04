@@ -13,11 +13,6 @@ load_dotenv()
 class WeatherData:
     """
     It fetches and stores a local weather data from Accuweather and images from local public cameras
-
-    Args:
-
-    Returns:
-
     """
 
     def __init__(self, location):
