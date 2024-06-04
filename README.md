@@ -1,6 +1,6 @@
 ## Google AI Hackathon 2024 project - 'What to Wear' Agent
 
-[![Watch the demo](thumbnail.png)]")
+[![Watch the demo](thumbnail.png)])
 
 
 ## Problem
